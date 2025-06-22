@@ -1,0 +1,14 @@
+name: ColorPalette
+main: pl.semimc.colorpalette.ColorPalettePlugin
+version: 1.0
+api-version: 1.20
+author: kznlabs
+description: Plugin do wyboru palety kolorów przez gracza z obsługą PlaceholderAPI i MariaDB.
+depend: [PlaceholderAPI]
+commands:
+  wybierz-kolor:
+    description: Open color palette GUI
+    usage: /wybierz-kolor
+  colorpalette:
+    description: Admin color palette command
+    permission: colorpalette.admin

@@ -1,0 +1,49 @@
+database:
+  host: localhost
+  port: 3306
+  database: database_name
+  user: root
+  password: qwerty123!
+
+messages:
+  only_players: "%colorpalette_player_error_mcformat%Tylko dla graczy!"
+  palette_selected: "%colorpalette_player_success_mcformat%Wybrano paletę: <palette_display>"
+  loaded_palettes: "%colorpalette_player_info_mcformat%> Załadowane palety: <palette_list>"
+  palette_not_found: "%colorpalette_player_error_mcformat%Nie znaleziono palety: <palette_name>"
+  palette_debug_header: "%colorpalette_player_info_mcformat%> Załadowana paleta: <palette_display>"
+  palette_debug_line: "%colorpalette_player_info_mcformat%- <type>: <hex>, <mcformat>"
+  usage_debug: "%colorpalette_player_warning_mcformat%Użycie: /colorpalette [debug <nazwa>]"
+
+# ColorPalette - PlaceholderAPI placeholders
+
+#  Sposób użycia:
+#  Wstaw powyższe placeholdery w configu lub innych pluginach obsługujących PlaceholderAPI.
+#  HEX – zwraca kod koloru HEX z wybranej palety gracza.
+#  MCFORMAT – zwraca kod koloru Minecraft (&a, &c, &e, itd.) z wybranej palety gracza.
+
+# %colorpalette_player_error_hex%
+# %colorpalette_player_error_mcformat%
+# %colorpalette_player_success_hex%
+# %colorpalette_player_success_mcformat%
+# %colorpalette_player_warning_hex%
+# %colorpalette_player_warning_mcformat%
+# %colorpalette_player_no_permission_hex%
+# %colorpalette_player_no_permission_mcformat%
+# %colorpalette_player_info_hex%
+# %colorpalette_player_info_mcformat%
+# %colorpalette_player_announcement_hex%
+# %colorpalette_player_announcement_mcformat%
+# %colorpalette_player_loot_hex%
+# %colorpalette_player_loot_mcformat%
+# %colorpalette_player_event_hex%
+# %colorpalette_player_event_mcformat%
+# %colorpalette_player_system_hex%
+# %colorpalette_player_system_mcformat%
+# %colorpalette_player_loading_hex%
+# %colorpalette_player_loading_mcformat%
+# %colorpalette_player_debug_hex%
+# %colorpalette_player_debug_mcformat%
+# %colorpalette_player_private_hex%
+# %colorpalette_player_private_mcformat%
+# %colorpalette_player_alert_hex%
+# %colorpalette_player_alert_mcformat%
