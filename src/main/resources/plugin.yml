@@ -6,9 +6,11 @@ author: kznlabs
 description: Plugin do wyboru palety kolorów przez gracza z obsługą PlaceholderAPI i MariaDB.
 depend: [PlaceholderAPI]
 commands:
-  wybierz-kolor:
-    description: Open color palette GUI
-    usage: /wybierz-kolor
   colorpalette:
-    description: Admin color palette command
-    permission: colorpalette.admin
+    description: Pozwala na zmiane palety kolorów gracza
+    permission: colorpalette
+    aliases: [paleta]
+permissions:
+  colorpalette.reload:
+    description: Pozwala na przeładowanie pluginu ColorPalette
+    default: op

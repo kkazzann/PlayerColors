@@ -7,15 +7,6 @@ gradlew.bat
 gradle/
 run/
 
-
-# IDEs
-.idea/
-*.iml
-*.ipr
-*.iws
-.vscode/
-*.swp
-
 # OS
 .DS_Store
 Thumbs.db

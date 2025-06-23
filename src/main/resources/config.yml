@@ -1,3 +1,5 @@
+config_version: 0.1
+
 database:
   host: localhost
   port: 3306
@@ -6,14 +8,34 @@ database:
   password: qwerty123!
 
 messages:
-  only_players: "%colorpalette_player_error_mcformat%Tylko dla graczy!"
-  palette_selected: "%colorpalette_player_success_mcformat%Wybrano paletę: <palette_display>"
-  loaded_palettes: "%colorpalette_player_info_mcformat%> Załadowane palety: <palette_list>"
-  palette_not_found: "%colorpalette_player_error_mcformat%Nie znaleziono palety: <palette_name>"
-  palette_debug_header: "%colorpalette_player_info_mcformat%> Załadowana paleta: <palette_display>"
-  palette_debug_line: "%colorpalette_player_info_mcformat%- <type>: <hex>, <mcformat>"
-  usage_debug: "%colorpalette_player_warning_mcformat%Użycie: /colorpalette [debug <nazwa>]"
-
+  only_players: "<%colorpalette_player_error_hex%> ❗ Tylko gracze mogą używać tej komendy!"
+  palette_selected: "<%colorpalette_player_success_hex%> ✅ Wybrano paletę: <palette_display>"
+  loaded_palettes: "<%colorpalette_player_info_hex%> » Załadowane palety: <palette_list>"
+  palette_not_found: "<%colorpalette_player_error_hex%> ❌ Nie znaleziono palety: <palette_name>"
+  palette_debug_header: "<%colorpalette_player_info_hex%> » Załadowana paleta: <palette_display>"
+  palette_debug_line: "<gray>  - <reset><type><gray>: <<hex>><hex><reset>, <mcformat>"
+  usage_debug: "<%colorpalette_player_warning_hex%> » Użycie: /colorpalette [debug <nazwa>]"
+  palette_edit_success: "<%colorpalette_player_success_hex%> ✅ Zmieniono kolor <type> w palecie <palette> na HEX: <hex>, MCFormat: <mcformat>"
+  palette_edit_not_found: "<%colorpalette_player_error_hex%> ❌ Nie znaleziono palety: <palette_name>"
+  no_permission: "<%colorpalette_player_no_permission_hex%> 🚫 Nie masz uprawnień!"
+  palette_edit_usage: "<%colorpalette_player_warning_hex%> » Użycie: /colorpalette edit [paleta] [typ] [hex] [mcformat]"
+  palette_add_success: "<%colorpalette_player_success_hex%> ✅ Dodano paletę: <display_name> (<work_name>)"
+  palette_remove_success: "<%colorpalette_player_error_hex%> ❌ Usunięto paletę: <work_name>"
+  palette_add_usage: "<%colorpalette_player_warning_hex%> » Użycie: /colorpalette add [work_name] [display_name] [kolory_w_ciagu]"
+  palette_remove_usage: "<%colorpalette_player_warning_hex%> » Użycie: /colorpalette remove [work_name]"
+  help: |-
+    <%colorpalette_player_info_hex%> » <white>Dostępne komendy:
+    <gray>/colorpalette <white>- Otwórz wybór palety
+    <gray>/colorpalette debug <paleta> <white>- Podgląd palety
+    <gray>/colorpalette edit <paleta> <typ> <hex> <mcformat> <white>- Edytuj kolor w palecie
+    <gray>/colorpalette add <work_name> <display_name> <kolory_w_ciagu> <white>- Dodaj paletę
+    <gray>/colorpalette remove <work_name> <white>- Usuń paletę
+    <gray>/colorpalette reload <white>- Przeładuj plugin
+    <gray>/colorpalette help <white>- Wyświetl pomoc
+  reload_success: "<%colorpalette_player_success_hex%> ✅ Przeładowano konfigurację i palety!"
+  set_usage: "<%colorpalette_player_warning_hex%> » Użycie: /paleta set [nazwa]"
+  # DODAJ TO, JEŚLI UŻYWASZ W KODZIE:
+  missing: "<dark_red>❌ <red>Brak wiadomości w <dark_red>config.yml<red>."
 # ColorPalette - PlaceholderAPI placeholders
 
 #  Sposób użycia:
