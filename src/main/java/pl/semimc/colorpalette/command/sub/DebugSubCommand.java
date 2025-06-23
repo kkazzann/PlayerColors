@@ -1,6 +1,5 @@
 package pl.semimc.colorpalette.command.sub;
 
-import net.kyori.adventure.text.minimessage.MiniMessage;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import pl.semimc.colorpalette.util.ColorPalette;

@@ -1,7 +1,6 @@
 package pl.semimc.colorpalette.database;
 
 import com.mysql.cj.jdbc.MysqlDataSource;
-import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import pl.semimc.colorpalette.util.ColorPalette;

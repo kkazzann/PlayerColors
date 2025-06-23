@@ -1,9 +1,6 @@
 package pl.semimc.colorpalette.placeholder;
 
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
-import net.md_5.bungee.api.ChatColor;
-import net.kyori.adventure.text.format.TextColor;
-
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 import pl.semimc.colorpalette.ColorPalettePlugin;
