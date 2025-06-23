@@ -11,6 +11,12 @@ commands:
     permission: colorpalette
     aliases: [paleta]
 permissions:
+  colorpalette:
+    description: Pozwala na używanie komendy /colorpalette
+    default: true
   colorpalette.reload:
     description: Pozwala na przeładowanie pluginu ColorPalette
+    default: op
+  colorpalette.edit:
+    description: Pozwala na dodawanie, edytowanie i usuwanie palet kolorów
     default: op
